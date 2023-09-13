@@ -35,14 +35,29 @@ namespace Esercizio3
             switch (selezPizza)
             {
                 case "margherita":
-                    pizzaPrice = 10;
-                    break;
-                case "diavola":
-                    pizzaPrice = 10;
-                    break;
-                case "quattroFormaggi":
-                    pizzaPrice = 10;
-                    break;
+    pizzaPrice = 10;
+    break;
+case "diavola":
+    pizzaPrice = 13;
+    break;
+case "quattroFormaggi":
+    pizzaPrice = 15;
+    break;
+case "capricciosa":
+    pizzaPrice = 14;
+    break;
+case "napoli":
+    pizzaPrice = 16;
+    break;
+case "prosciuttoEfunghi":
+    pizzaPrice = 13;
+    break;
+case "vegetariana":
+    pizzaPrice = 11;
+    break;
+case "marinara":
+    pizzaPrice = 12;
+    break;
             }
             for (int i = 0; i < CheckBoxList1.Items.Count; i++)
             {
