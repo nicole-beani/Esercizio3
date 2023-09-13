@@ -11,7 +11,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-    <asp:TextBox ID="Username" runat="server"></asp:TextBox><br />
+        <h3>Username:</h3>
+<asp:TextBox ID="Username" runat="server"></asp:TextBox><br />
+        <h3>Password:</h3>
     <asp:TextBox ID="Password" TextMode="Password" runat="server"></asp:TextBox><br />
     <asp:Button ID="Bottone" runat="server" Text="Accedi" OnClick="Bottone_Click" />
 </div>
